@@ -18,11 +18,11 @@ class CaesarCipherTest {
 		assertEquals("", ceasarsCipher.cipher("", 12));
 	}
 	
-	/*//Purposefully Failing test
+	//Purposefully Failing test
 	@Test
 	void testCipheredMessageWithOffsetOf11() {
 		assertEquals("Zai SdW kag Va[`Y faVSk", ceasarsCipher.cipher("how are you doing today", 11));
 	}
-	*/
+	
 
 }
